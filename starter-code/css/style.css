@@ -39,3 +39,38 @@ input {
 .quantity {
   margin: 0 5px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  margin-bottom: 40px;
+}
+
+.calculate {
+  display: flex;
+  justify-content: center;
+}
+
+.container > div {
+  width: 20%;
+}
+
+.add-element-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-element-div * {
+  width: 30%;
+}
